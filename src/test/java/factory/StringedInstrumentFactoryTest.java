@@ -4,16 +4,13 @@ import enums.Material;
 import enums.Resonators;
 import exception.NotFoundInstrumentException;
 import factory.kind_instruments.BowedInstrument;
-import factory.StringedInstrumentFactory;
 import factory.kind_instruments.PluckedInstrument;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
-import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
 
 public class StringedInstrumentFactoryTest {

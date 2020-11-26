@@ -19,6 +19,12 @@
             </plugin>
         </plugins>
     </build>
-
+    <dependencies>
+        <dependency>
+            <groupId>org.testinfected.hamcrest-matchers</groupId>
+            <artifactId>core-matchers</artifactId>
+            <version>1.5</version>
+        </dependency>
+    </dependencies>
 
 </project>

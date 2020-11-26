@@ -2,15 +2,13 @@ package factory.kind_instruments;
 
 import enums.Material;
 import enums.Resonators;
-import factory.kind_instruments.BowedInstrument;
-import factory.kind_instruments.PluckedInstrument;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.*;
 
 public class BowedInstrumentTest {
     BowedInstrument bowedInstrument = new BowedInstrument();
