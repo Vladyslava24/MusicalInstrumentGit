@@ -7,6 +7,7 @@ public class MusicInstrumentApp {
             StringedInstrumentFactory stringedInstrumentFactory = new StringedInstrumentFactory();
             stringedInstrumentFactory.makeBowedInstruments();
             stringedInstrumentFactory.objectComprasion(stringedInstrumentFactory.getFactoryBowedList());
+            stringedInstrumentFactory.makePluckedInstruments();
             StringedInstrumentFactory.Statistics statistics = stringedInstrumentFactory.new Statistics();
             System.out.println("Make statistics of produced instruments");
             System.out.println();
@@ -14,5 +15,6 @@ public class MusicInstrumentApp {
         } catch (Exception e){
             e.printStackTrace();
         }
+
     }
 }
